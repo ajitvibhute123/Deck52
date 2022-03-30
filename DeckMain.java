@@ -6,6 +6,6 @@ public class DeckMain {
 
         card.cardCreation();
         card.shuffle();
-        //card.distribute();
+        card.distribute();
     }
 }
