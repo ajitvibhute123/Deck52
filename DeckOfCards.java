@@ -26,16 +26,5 @@ public class DeckOfCards {
                 deck[m][n] = temp;
             }
         }
-    }
-
-    public void distribute() {
-        for (int i = 0; i < 4; i++) {
-            System.out.println(" ");
-            System.out.println("Cards Recieved By Player "+(i+1)+ " are");
-            for (int j = 0; j < 9; j++) {
-                System.out.println("  "+deck[i][j]);
-            }
-        }
-    }
 }
-
+}
